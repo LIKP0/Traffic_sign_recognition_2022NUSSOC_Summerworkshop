@@ -21,10 +21,10 @@
 
 #### Pre-processing image
 
-| Method | Result |
-| :----------- | ---------- |
-| resize to 48\*48     | 0.943  |
-|       |   |
+| Source | Method | Result |
+| -----------| ----------- | ---------- |
+| Stater code | resize to 48\*48     | 0.943  |
+| |       |   |
 
 #### Extract features
 
