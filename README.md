@@ -30,3 +30,14 @@
 
 #### Classify model
 
+### Bonus Level
+#### Attempt 1
+##### Preprocess: 
+- Histogram Equalization
+- Resize to 32*32
+
+##### Classifier: 
+CNN + 1 linear layer
+##### Result: 
+![](./result_cnn_1.png)
+
