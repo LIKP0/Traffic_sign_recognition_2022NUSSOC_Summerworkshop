@@ -15,9 +15,16 @@
 
 ### Beginner level
 
+[beginner.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/beginner.ipynb)
+
 ### Expert level
 
 #### Pre-processing image
+
+| Method | Result |
+| :----------- | ---------- |
+| resize to 48\*48     | 0.943  |
+|       |   |
 
 #### Extract features
 
