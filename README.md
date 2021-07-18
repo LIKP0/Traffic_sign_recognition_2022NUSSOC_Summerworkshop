@@ -4,7 +4,7 @@
 
 **SuSTech**
 
-**from July 12 to July 28**
+**2021 from July 12 to July 28**
 
 ### TimeTable
 
