@@ -8,10 +8,11 @@
 
 ### TimeTable
 
-| Time | Achievement |
-| :----------- | ---------- |
-| 7.16      | Beginner level complete  |
-| 7.18      | Expert level complete  |
+| Time | Achievement | Remarks |
+| :----------- | ---------- | ---------- |
+| 7.16      | Beginner level complete  ||
+| 7.18      | Expert level complete  | 简单添加了预处理和特征提取方法，Bonus部分CNN初步完成仍然存在问题 |
+| 7.19      | new plan  | Bonus部分尝试传统方法，尝试目标检测算法 |
 
 ### Beginner level
 
