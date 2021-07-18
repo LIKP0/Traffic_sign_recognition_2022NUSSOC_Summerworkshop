@@ -39,5 +39,5 @@
 ##### Classifier: 
 CNN + 1 linear layer
 ##### Result: 
-![](./result_cnn_1.png)
+![](./pic/result_cnn_1.png)
 
