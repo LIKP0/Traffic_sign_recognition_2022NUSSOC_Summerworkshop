@@ -29,7 +29,6 @@
 #### Extract features
 
 #### Classify model
-![](./accuracy of different classifier.png)
 
 ### Bonus Level
 #### Attempt 1
