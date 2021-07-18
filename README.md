@@ -33,7 +33,7 @@
 | Source | Method | Result |
 | -----------| ----------- | ---------- |
 | Stater code | HOG     | 0.943  |
-| |       | SIFT |
+| |    SIFT   |  |
 
 #### Classify model
 
