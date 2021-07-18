@@ -24,9 +24,16 @@
 | Source | Method | Result |
 | -----------| ----------- | ---------- |
 | Stater code | resize to 48\*48     | 0.943  |
-| |       |   |
+| | 对数据重采样，使样本分布均匀   |   |
+| | 对图像做直方图均衡化   |   |
+| | 数据增强（可选）   |   |
 
 #### Extract features
+
+| Source | Method | Result |
+| -----------| ----------- | ---------- |
+| Stater code | HOG     | 0.943  |
+| |       | SIFT |
 
 #### Classify model
 
