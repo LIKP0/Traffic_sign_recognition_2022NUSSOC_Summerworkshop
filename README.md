@@ -6,7 +6,7 @@
 
 **2021 from July 12 to July 28**
 
-### TimeTable
+## TimeTable
 
 | Time | Achievement | Remarks |
 | :----------- | ---------- | ---------- |
@@ -15,11 +15,11 @@
 | 7.19      | new plan  | Bonus CNN complete，Bonus try no CNN method，try object detection |
 | 7.20      | finish data agumentation  | different in CNN and traditional method |
 
-### Beginner level
+## Beginner level
 
 [beginner.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/beginner.ipynb)
 
-### Expert level
+## Expert level
 
 [Expert_differentPreprocessing.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert_differentPreprocessing.ipynb)
 
@@ -38,7 +38,7 @@
 
 - Method of data agumentation
 
-**triditional**
+**Triditional**
 
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
@@ -76,11 +76,11 @@ Use dataloader in pytorch
 |  GaussianNB()  | 0.781 |
 |  KNeighborsClassifier(k= 1,3,5,7,9)  | max 0.968 |
 
-### Bonus Level
+## Bonus Level
 
 [CNN.py](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN.py)
 
-#### Attempt 1
+### Attempt 1
 ##### Preprocess: 
 - Histogram Equalization
 - Resize to 32*32
@@ -91,7 +91,7 @@ Hierarchical CNN + 1 linear layer
 Max accuracy on test set: 95.91%
 ![](./pic/result_cnn_2.png)
 
-#### Attempt 2
+### Attempt 2
 ##### Preprocess: 
 - Histogram Equalization
 - Crop the picture according to Roi
