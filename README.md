@@ -45,6 +45,9 @@
 | rotate     | max to 30 degree  | |
 | multiscale  | 0.5, 1.5, 2  | |
 | flip   |    | |
+| noise   |    | |
+| affine  |    | |
+| fliplr  |    | |
 | random crop  |  | |
 | mine hard negs   | collect failed test examples for retrain  | |
 | counter example   | not collected yet  | |
