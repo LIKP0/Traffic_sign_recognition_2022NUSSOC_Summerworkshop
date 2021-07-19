@@ -9,10 +9,10 @@
 ## TimeTable
 
 | Time | Achievement | Remarks |
-| :----------- | ---------- | ---------- |
+| ----------- | ---------- | ---------- |
 | 7.16      | Beginner level complete  ||
 | 7.18      | Expert level complete  | simply add pre-processing method，Bonus CNN still has problem |
-| 7.19      | new plan  | Bonus CNN complete，Bonus try no CNN method，try object detection |
+| 7.19      | new plan  | Bonus CNN complete，Bonus try no CNN method，try object detection in big scale |
 | 7.20      | finish data agumentation  | different in CNN and traditional method |
 
 ## Beginner level
@@ -43,13 +43,12 @@
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
 | rotate     | max to 30 degree  | |
-| multiscale  | 0.5, 1.5, 2  | |
 | flip   |    | |
 | noise   |    | |
 | affine  |    | |
 | fliplr  |    | |
 | random crop  |  | |
-| mine hard negs   | collect failed test examples for retrain  | |
+| mine hard negs   | collect failed test examples for retraining  | |
 | counter example   | not collected yet  | |
 | More train and test data   | not collected yet  | |
 
@@ -103,5 +102,13 @@ Hierarchical CNN + 1 linear layer
 Hierarchical CNN + 1 linear layer
 #### Result: Max accuracy on test set 98.37%
 ![](./pic/result_cnn_3.png)
+
+## Extra work
+
+### Detection in a large scale
+
+| Method | Result |
+| ----------- | ---------- |
+| sliding window 48\*48 with HOG     |   |
 
 
