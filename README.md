@@ -11,8 +11,8 @@
 | Time | Achievement | Remarks |
 | :----------- | ---------- | ---------- |
 | 7.16      | Beginner level complete  ||
-| 7.18      | Expert level complete  | 简单添加了预处理和特征提取方法，Bonus部分CNN初步完成仍然存在问题 |
-| 7.19      | new plan  | Bonus部分尝试传统方法，尝试目标检测算法 |
+| 7.18      | Expert level complete  | simply add pre-processing method，Bonus CNN still has problem |
+| 7.19      | new plan  | Bonus CNN complete，Bonus try no CNN method，try object detection |
 
 ### Beginner level
 
@@ -29,10 +29,10 @@
 | Source | Method | Result |
 | -----------| ----------- | ---------- |
 | Stater code | resize to 48\*48     | 0.943  |
-| | 对数据重采样，使样本分布均匀  Resample to make samples distribute uniformly   | 0.972  |
-| | 对图像做直方图均衡化  Histogram Equalization   |0.935   |
-| | 数据重采样+直方图均衡化 Resample + Histogram Equalization  |0.962  |
-| | 数据增强（暂时不做）   |   |
+| | Resample to make samples distribute uniformly   | 0.972  |
+| | Histogram Equalization   |0.935   |
+| | Resample + Histogram Equalization  |0.962  |
+| | data strengthen (not plan to do temporarily)   |   |
 
 #### Extract features
 
@@ -40,11 +40,23 @@
 | -----------| ----------- | ---------- |
 | Stater code | HOG     | 0.943  |
 | |    SIFT   |  |
-| |  多尺度特征提取（暂时不做）  |  |
+| |  extract features in multiscale (not plan to do temporarily)  |  |
 
 #### Classify model
 
+**All defalut core and parameters**
+
+| Source | Method | Result |
+| -----------| ----------- | ---------- |
+| Stater code | svm.SVC()     | 0.944  |
+| |    RandomForestClassifier()   | 0.975 |
+| |  GaussianNB()  | 0.781 |
+| |  KNeighborsClassifier(k= 1,3,5,7,9)  | max 0.968 |
+
 ### Bonus Level
+
+[CNN.py](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN.py)
+
 #### Attempt 1
 ##### Preprocess: 
 - Histogram Equalization
