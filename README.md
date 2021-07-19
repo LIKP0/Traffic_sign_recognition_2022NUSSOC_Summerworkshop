@@ -113,4 +113,8 @@ Hierarchical CNN + 1 linear layer
 | ----------- | ---------- |
 | sliding window 48\*48 with HOG     |   |
 
+Example of error in detection of pictures of large scale
+
+![](./pic/Error_example.jpg)
+
 
