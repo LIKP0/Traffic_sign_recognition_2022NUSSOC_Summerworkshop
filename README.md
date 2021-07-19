@@ -38,7 +38,7 @@
 
 - Method of data agumentation
 
-**Triditional**
+**Traditional**
 
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
