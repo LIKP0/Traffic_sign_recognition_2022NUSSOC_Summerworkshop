@@ -25,34 +25,34 @@
 
 [Expert_differentClassifier.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert_differentClassifier.ipynb)
 
-#### Pre-processing image
+- Pre-processing image
 
-| Source | Method | Result |
-| -----------| ----------- | ---------- |
-| Stater code | resize to 48\*48     | 0.943  |
-| | Resample to make samples distribute uniformly   | 0.972  |
-| | Histogram Equalization   |0.935   |
-| | Resample + Histogram Equalization  |0.962  |
-| | add data augumentation (plan to do)   |   |
-| | data strengthen by library (not plan to do temporarily)   |   |
+| Method | Result |
+| ----------- | ---------- |
+| resize to 48\*48     | 0.943  |
+| Resample to make samples distribute uniformly   | 0.972  |
+| Histogram Equalization   |0.935   |
+| Resample + Histogram Equalization  |0.962  |
+| add data augumentation (plan to do)   |   |
+| data strengthen by library (not plan to do temporarily)   |   |
 
-#### Extract features
+- Extract features
 
-| Source | Method | Result |
-| -----------| ----------- | ---------- |
-| Stater code | HOG     | 0.943  |
-| |    SIFT   |  |
+| Method | Result |
+| ----------- | ---------- |
+| HOG     | 0.943  |
+|    SIFT   |  |
 
-#### Classify model
+- Classify model
 
 **All defalut core and parameters**
 
-| Source | Method | Result |
-| -----------| ----------- | ---------- |
-| Stater code | svm.SVC()     | 0.944  |
-| |    RandomForestClassifier()   | 0.975 |
-| |  GaussianNB()  | 0.781 |
-| |  KNeighborsClassifier(k= 1,3,5,7,9)  | max 0.968 |
+| Method | Result |
+| ----------- | ---------- |
+| svm.SVC()     | 0.944  |
+|    RandomForestClassifier()   | 0.975 |
+|  GaussianNB()  | 0.781 |
+|  KNeighborsClassifier(k= 1,3,5,7,9)  | max 0.968 |
 
 ### Bonus Level
 
