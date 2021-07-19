@@ -44,6 +44,7 @@
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
 | rotate     | max to 30 degree  | |
+| multiscale   |    | |
 | flip   |    | |
 | noise   |    | |
 | affine  |    | |
