@@ -43,7 +43,7 @@
 
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
-| rotate     | +-10 degree,+-15 degree, each 5%  |0.889 |
+| rotate     | +-10 degree,+-15 degree, each 5% of total data |0.889 |
 | multiscale   |    | |
 | flip   |    | |
 | noise   |    | |
