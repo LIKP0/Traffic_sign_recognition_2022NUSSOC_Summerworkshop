@@ -32,6 +32,7 @@
 | | Resample to make samples distribute uniformly   | 0.972  |
 | | Histogram Equalization   |0.935   |
 | | Resample + Histogram Equalization  |0.962  |
+| | add rotate and multiscale image (plan to do)   |   |
 | | data strengthen (not plan to do temporarily)   |   |
 
 #### Extract features
@@ -40,7 +41,6 @@
 | -----------| ----------- | ---------- |
 | Stater code | HOG     | 0.943  |
 | |    SIFT   |  |
-| |  extract features in multiscale (not plan to do temporarily)  |  |
 
 #### Classify model
 
