@@ -31,6 +31,7 @@
 | ----------- | ---------- |
 | resize to 48\*48     | 0.943  |
 | Resample to make samples distribute uniformly   | 0.972  |
+| Resample to make samples distribute uniformly (dataset2)  | 0.919  |
 | Histogram Equalization   |0.935   |
 | Resample + Histogram Equalization  |0.962  |
 | add data augumentation (plan to do)   |   |
