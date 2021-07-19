@@ -13,6 +13,7 @@
 | 7.16      | Beginner level complete  ||
 | 7.18      | Expert level complete  | simply add pre-processing method，Bonus CNN still has problem |
 | 7.19      | new plan  | Bonus CNN complete，Bonus try no CNN method，try object detection |
+| 7.20      | finish data agumentation  | different in CNN and traditional method |
 
 ### Beginner level
 
@@ -32,8 +33,8 @@
 | | Resample to make samples distribute uniformly   | 0.972  |
 | | Histogram Equalization   |0.935   |
 | | Resample + Histogram Equalization  |0.962  |
-| | add rotate and multiscale image (plan to do)   |   |
-| | data strengthen (not plan to do temporarily)   |   |
+| | add data augumentation (plan to do)   |   |
+| | data strengthen by library (not plan to do temporarily)   |   |
 
 #### Extract features
 
