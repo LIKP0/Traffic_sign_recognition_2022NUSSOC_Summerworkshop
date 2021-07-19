@@ -87,8 +87,7 @@ Use dataloader in pytorch
 
 ##### Classifier: 
 Hierarchical CNN + 1 linear layer
-##### Result: 
-Max accuracy on test set: 95.91%
+##### Result: Max accuracy on test set 95.91%
 ![](./pic/result_cnn_2.png)
 
 ### Attempt 2
@@ -99,8 +98,7 @@ Max accuracy on test set: 95.91%
 
 ##### Classifier: 
 Hierarchical CNN + 1 linear layer
-##### Result: 
-Max accuracy on test set: 98.37%
+##### Result: Max accuracy on test set 98.37%
 ![](./pic/result_cnn_3.png)
 
 
