@@ -39,11 +39,11 @@
 
 - Method of data agumentation
 
-**Traditional**
+**Traditional (based on SVM)**
 
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
-| rotate     | max to 30 degree  | |
+| rotate     | +-10 degree,+-15 degree, each 5%  |0.889 |
 | multiscale   |    | |
 | flip   |    | |
 | noise   |    | |
