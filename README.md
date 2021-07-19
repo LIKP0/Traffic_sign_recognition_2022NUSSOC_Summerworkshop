@@ -36,6 +36,30 @@
 | add data augumentation (plan to do)   |   |
 | data strengthen by library (not plan to do temporarily)   |   |
 
+- Method of data agumentation
+
+**triditional**
+
+| Method | Remarks | Result |
+| ----------- | ---------- | ---------- |
+| rotate     | max to 30 degree  | |
+| multiscale  | 0.5, 1.5, 2  | |
+| flip   |    | |
+| random crop  |  | |
+| mine hard negs   | collect failed test examples for retrain  | |
+| counter example   | not collected yet  | |
+| More train and test data   | not collected yet  | |
+
+**For CNN**
+
+Use dataloader in pytorch
+
+| Method | Remarks | Result |
+| ----------- | ---------- | ---------- |
+| mine hard negs   | collect failed test examples for retrain  | |
+| counter example   | not collected yet  | |
+| More train and test data   | not collected yet  | |
+
 - Extract features
 
 | Method | Result |
@@ -44,8 +68,6 @@
 |    SIFT   |  |
 
 - Classify model
-
-**All defalut core and parameters**
 
 | Method | Result |
 | ----------- | ---------- |
