@@ -43,12 +43,12 @@
 
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
-| rotate     | +-10 degree,+-15 degree, each 5% of total data |0.889 |
+| rotate     | rotate +-10 degree,+-15 degree, each 5% of total data |0.889 |
 | multiscale   |    | |
-| noise | 20% add Gaussian White noise |0.901 |
-| affine  |  20% do affine transform  |0.895 |
+| noise | add Gaussian White noise to 20% of the images|0.901 |
+| affine  |  do affine transform to 20% of the images |0.895 |
 | fliplr  |    | |
-| random crop  |  | |
+| random crop  | randomly crop 20% of the images  | 0.885|
 | mine hard negs   | collect failed test examples for retraining  | |
 | counter example   | not collected yet  | |
 | More train and test data   | not collected yet  | |
