@@ -109,13 +109,28 @@ Hierarchical CNN + 1 linear layer
 
 ### Detection in a large scale
 
-| Method | Remarks | Result |
-| ----------- | ---------- | ---------- |
-| sliding window 48\*48 and detect directly   | Multiclassification needs negative samples | |
-| Object detection algorithm     | to crop the sign first  |  |
-
 Example of error in detection of pictures of large scale
 
 ![](./pic/Error_example1.png)
+
+| Method | Remarks | Result |
+| ----------- | ---------- | ---------- |
+| sliding window 48\*48 + max prob sort   | directly give answers of all patches | very slow |
+| Object detection algorithm     | to crop the sign first  |  |
+
+#### sliding window 48\*48 + max prob sort
+
+Use model clf trained in expert level (no negative samples)
+
+1. Use sliding window to catch a patch
+2. Use **clf.predict_proba(feature)** to get the probality of all categories and get the max
+3. if max > max_threshold, collect the patch location
+4. sort all the patch locations and show the top ones
+
+#### Object detection algorithm 
+
+1. Train a binary classification model with negative samples, to predict sign or not sign
+2. Use sliding window and first detect if it is a sign
+3. If it is a sign, use multi-classifier
 
 
