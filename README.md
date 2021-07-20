@@ -114,7 +114,7 @@ Example of error in detection of pictures of large scale
 
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
-| sliding window 48\*48 + max prob sort   | directly give answers of all patches | very slow |
+| sliding window 48\*48 + max prob sort   | directly give answers of all patches | very slow and not accurate |
 | Object detection algorithm     | to crop the sign first  |  |
 
 #### sliding window 48\*48 + max prob sort
@@ -125,6 +125,8 @@ Use model clf trained in expert level (no negative samples)
 2. Use **clf.predict_proba(feature)** to get the probality of all categories and get the max
 3. if max > max_threshold, collect the patch location
 4. sort all the patch locations and show the top ones
+
+[](./pic/Fail1.png)
 
 #### Object detection algorithm 
 
