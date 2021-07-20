@@ -104,6 +104,20 @@ Hierarchical CNN + 1 linear layer
 #### Result: Max accuracy on test set 98.37%
 ![](./pic/result_cnn_3.png)
 
+### Attempt 3
+#### Preprocess: 
+- Histogram Equalization
+- Random Affine transform (degree=15)
+- Random Brightness change (70% - 130%)
+- Random guassian blur
+- Crop the picture according to Roi
+- Resize to 32*32
+
+#### Classifier: 
+Hierarchical CNN + 1 linear layer
+#### Result: Max accuracy on test set 37.28%, training set: 77.87%
+![](./pic/result_cnn_4.png)
+
 ## Extra work
 
 ### Detection in a large scale
