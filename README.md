@@ -46,7 +46,7 @@
 | rotate     | +-10 degree,+-15 degree, each 5% of total data |0.889 |
 | multiscale   |    | |
 | noise | 20% add Gaussian White noise |0.901 |
-| affine  |    | |
+| affine  |  20% do affine transform  |0.895 |
 | fliplr  |    | |
 | random crop  |  | |
 | mine hard negs   | collect failed test examples for retraining  | |
