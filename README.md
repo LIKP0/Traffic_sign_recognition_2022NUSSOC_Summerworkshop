@@ -126,6 +126,8 @@ Use model clf trained in expert level (no negative samples)
 3. if max > max_threshold, collect the patch location
 4. sort all the patch locations and show the top ones
 
+[SlidingWindow_v1.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/SlidingWindow_v1.ipynb)
+
 ![](./pic/Fail1.png)
 
 #### Object detection algorithm 
