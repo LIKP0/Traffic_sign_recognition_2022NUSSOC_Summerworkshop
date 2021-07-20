@@ -116,6 +116,6 @@ Hierarchical CNN + 1 linear layer
 
 Example of error in detection of pictures of large scale
 
-![](./pic/Error_example1.jpg)
+![](./pic/Error_example1.png)
 
 
