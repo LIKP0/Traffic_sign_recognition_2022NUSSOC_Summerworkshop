@@ -25,6 +25,8 @@
 
 [Expert_differentClassifier.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert_differentClassifier.ipynb)
 
+[Expert_augmentation.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert_augmentation.ipynb)
+
 - Pre-processing image
 
 | Method | Result |
