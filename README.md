@@ -109,12 +109,13 @@ Hierarchical CNN + 1 linear layer
 
 ### Detection in a large scale
 
-| Method | Result |
-| ----------- | ---------- |
-| sliding window 48\*48 with HOG     |   |
+| Method | Remarks | Result |
+| ----------- | ---------- | ---------- |
+| sliding window 48\*48 and detect directly   | Multiclassification needs negative samples | |
+| Object detection algorithm     | to crop the sign first  |  |
 
 Example of error in detection of pictures of large scale
 
-![](./pic/Error_example.jpg)
+![](./pic/Error_example1.jpg)
 
 
