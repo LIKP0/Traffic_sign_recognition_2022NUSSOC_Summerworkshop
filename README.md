@@ -45,7 +45,6 @@
 | ----------- | ---------- | ---------- |
 | rotate     | +-10 degree,+-15 degree, each 5% of total data |0.889 |
 | multiscale   |    | |
-| flip   |    | |
 | noise | 20% add Gaussian White noise |0.901 |
 | affine  |    | |
 | fliplr  |    | |
