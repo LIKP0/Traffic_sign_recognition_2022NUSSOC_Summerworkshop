@@ -6,6 +6,15 @@
 
 **2021 from July 12 to July 28**
 
+## New Plan
+
+| Time | Plan | Remarks |
+| ----------- | ---------- | ---------- |
+| 7.21      | More data agumentation  | larger size of added data |
+| 7.21      | Object detection in large picture  | Color/Shape detect to get ROI |
+| 7.21      | 细化模型开发  | 确定如何更好的测试模型，之后调参 |
+
+
 ## TimeTable
 
 | Time | Achievement | Remarks |
