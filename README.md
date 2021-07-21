@@ -90,7 +90,7 @@ Use dataloader in pytorch
 
 [CNN.py](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN.py)
 
-[CNN_History_Attemp.md](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN_History_Attemp.md)
+[CNN_History_Attempt.md](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN_History_Attemp.md)
 
 ### Attempt 3
 #### Preprocess: 
