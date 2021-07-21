@@ -43,6 +43,8 @@
 
 **Traditional (based on SVM)**
 
+![](./pic/different_augmentation_methods.png)
+
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
 | rotate     | rotate +-10 degree,+-15 degree, each 5% of total data |0.889 |
@@ -55,7 +57,8 @@
 | counter example   | not collected yet  | |
 | More train and test data   | not collected yet  | |
 
-![](./pic/different_augmentation_methods.png)
+![](./pic/augmented_dataset1.png)
+
 **For CNN**
 
 Use dataloader in pytorch
