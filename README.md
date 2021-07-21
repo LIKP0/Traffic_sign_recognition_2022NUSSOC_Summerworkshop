@@ -55,6 +55,8 @@
 | counter example   | not collected yet  | |
 | More train and test data   | not collected yet  | |
 
+![](./pic/different augmentation method.png)
+
 **For CNN**
 
 Use dataloader in pytorch
