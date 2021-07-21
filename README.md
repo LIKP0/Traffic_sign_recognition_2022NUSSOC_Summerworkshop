@@ -135,7 +135,7 @@ Example of error in detection of pictures of large scale
 
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
-| sliding window 48\*48 + max prob sort   | directly give answers of all patches | very slow and not accurate |
+| sliding window 48\*48 + max category proability sort   | directly give answers of all patches | very slow and not accurate |
 | Object detection algorithm     | to crop the sign first  |  |
 
 #### sliding window 48\*48 + max prob sort
