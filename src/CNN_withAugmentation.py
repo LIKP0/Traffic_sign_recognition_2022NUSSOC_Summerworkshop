@@ -56,12 +56,8 @@ class TrafficSignDataset(Dataset):
         equalized = cv2.cvtColor(ycrcb, cv2.COLOR_YCrCb2RGB)
         if random.random() < 0.3:
             equalized = cv2.GaussianBlur(equalized, (3,3), 0)
-        RGB = cv2.split(equalized)
-        np_res = np.stack(RGB, axis=0)
-        res = torch.FloatTensor(np_res)
-        if self.trans != None:
-            pil_form = Image.fromarray(np_res, 'RGB')
-            res = self.trans(pil_form)
+        pil_form = Image.fromarray(np_res, 'RGB')
+        res = self.trans(pil_form)
         return res
         
     def __getitem__(self, index):
