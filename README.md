@@ -14,6 +14,7 @@
 | 7.18      | Expert level complete  | simply add pre-processing method，Bonus CNN still has problem |
 | 7.19      | new plan  | Bonus CNN complete，Bonus try no CNN method，try object detection in big scale |
 | 7.20      | finish data agumentation  | different in CNN and traditional method |
+| 7.21      | complete a try on large picture  | sliding window leads to a total fail  |
 
 ## Beginner level
 
@@ -36,7 +37,7 @@
 | Resample to make samples distribute uniformly (dataset2)  | 0.919  |
 | Histogram Equalization   |0.935   |
 | Resample + Histogram Equalization  |0.962  |
-| add data augumentation (plan to do)   |   |
+| add data augumentation    | done  |
 | data strengthen by library (not plan to do temporarily)   |   |
 
 - Method of data agumentation
@@ -48,13 +49,13 @@
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
 | rotate     | rotate +-10 degree,+-15 degree, each 5% of total data |0.889 |
-| multiscale   |    | |
 | noise | add Gaussian White noise to 20% of the images|0.901 |
 | affine  |  do affine transform to 20% of the images |0.895 |
-| fliplr  |    | |
 | random crop  | randomly crop 20% of the images  | 0.885|
 | mine hard negs   | collect failed test examples for retraining  | |
-| counter example   | not collected yet  | |
+| multiscale   | resize?   | |
+| fliplr  | impossible in real life   | |
+| negative example   | picture with no signs, not collected yet  | |
 | More train and test data   | not collected yet  | |
 
 ![](./pic/augmented_dataset1.png)
