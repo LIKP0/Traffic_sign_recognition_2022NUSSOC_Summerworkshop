@@ -55,8 +55,7 @@
 | counter example   | not collected yet  | |
 | More train and test data   | not collected yet  | |
 
-![](./pic/different_augmentation_methods.png){:height="50%" width="50%"}
-
+![](./pic/different_augmentation_methods.png =100x100)
 **For CNN**
 
 Use dataloader in pytorch
