@@ -55,7 +55,7 @@
 | counter example   | not collected yet  | |
 | More train and test data   | not collected yet  | |
 
-![](./pic/different augmentation methods.png)
+![](./pic/different_augmentation_methods.png)
 
 **For CNN**
 
