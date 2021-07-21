@@ -66,9 +66,9 @@ Use dataloader in pytorch
 
 | Method | Remarks | Result |
 | ----------- | ---------- | ---------- |
-| mine hard negs   | collect failed test examples for retrain  | |
-| counter example   | not collected yet  | |
-| More train and test data   | not collected yet  | |
+| Random Gaussian Blur   | probability=0.3, gamma=3  | 98.01%|
+| Random Affine transformation +  Random Gaussian Blur  | degree=15  | 97.89%|
+| Random Affine transformation +  Random Gaussian Blur + Random brightness change   | brightness=(0.7-1.3)  | 97.92%|
 
 - Extract features
 
@@ -94,19 +94,6 @@ Use dataloader in pytorch
 
 [CNN_History_Attempt.md](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN_History_Attemp.md)
 
-### Attempt 3
-#### Preprocess: 
-- Histogram Equalization
-- Random Affine transform (degree=15)
-- Random Brightness change (70% - 130%)
-- Random guassian blur
-- Crop the picture according to Roi
-- Resize to 32*32
-
-#### Classifier: 
-Hierarchical CNN + 1 linear layer
-#### Result: Max accuracy on test set 37.28%, training set: 77.87%
-![](./pic/result_cnn_4.png)
 
 ## Extra work
 
