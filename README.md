@@ -90,26 +90,7 @@ Use dataloader in pytorch
 
 [CNN.py](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN.py)
 
-### Attempt 1
-#### Preprocess: 
-- Histogram Equalization
-- Resize to 32*32
-
-#### Classifier: 
-Hierarchical CNN + 1 linear layer
-#### Result: Max accuracy on test set 95.91%
-![](./pic/result_cnn_2.png)
-
-### Attempt 2
-#### Preprocess: 
-- Histogram Equalization
-- Crop the picture according to Roi
-- Resize to 32*32
-
-#### Classifier: 
-Hierarchical CNN + 1 linear layer
-#### Result: Max accuracy on test set 98.37%
-![](./pic/result_cnn_3.png)
+[CNN_History_Attemp.md](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN_History_Attemp.md)
 
 ### Attempt 3
 #### Preprocess: 
