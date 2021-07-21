@@ -140,14 +140,14 @@ Example of error in detection of pictures of large scale
 
 #### sliding window 48\*48 + max prob sort
 
+[SlidingWindow_v1.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/SlidingWindow_v1.ipynb)
+
 Use model clf trained in expert level (no negative samples)
 
 1. Use sliding window to catch a patch
 2. Use **clf.predict_proba(feature)** to get the probality of all categories and get the max
 3. if max > max_threshold, collect the patch location
 4. sort all the patch locations and show the top ones
-
-[SlidingWindow_v1.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/SlidingWindow_v1.ipynb)
 
 ![](./pic/Fail1.png)
 
