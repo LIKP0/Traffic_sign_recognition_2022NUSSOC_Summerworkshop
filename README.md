@@ -120,7 +120,7 @@ Example of the error in detection of pictures of large scale using model of expe
 
 #### Object detection algorithm 
 
-[signEdgeDetection_mix2.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Extra/signEdgeDetection_mix2.ipynb)
+[SignDetection2.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Extra/SignDetection2.ipynb)
 
 1. Use color detection to get the contours around the traffic sign and crop them
 2. Classify the cropped ones
