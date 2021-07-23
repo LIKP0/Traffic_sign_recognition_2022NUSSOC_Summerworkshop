@@ -111,7 +111,7 @@ Example of the error in detection of pictures of large scale using model of expe
 
 #### sliding window 48\*48 + max prob sort
 
-[SlidingWindow_v1.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/SlidingWindow_v1.ipynb)
+[SlidingWindow_v1.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Extra/SlidingWindow_v1.ipynb)
 
 [Sliding_window.md](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Extra/Sliding_window.md)
 
