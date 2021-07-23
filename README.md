@@ -16,6 +16,7 @@
 | 7.20      | finish data agumentation  | different in CNN and traditional method |
 | 7.21      | complete a try on large picture  | sliding window leads to a total fail  |
 | 7.22      | complete an early version of object detection  | still has problems on detection and classification  |
+| 7.23      | complete code refactory and update data agumentation | Training data is 5 times bigger than original data |
 
 ## Beginner level
 
