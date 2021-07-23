@@ -6,6 +6,11 @@
 
 **2021 from July 12 to July 28**
 
+## To-do list
+1. Use the detection pipelines to generate ROI on the dataset 1&2. Compare the generated ROI and the ground true ROI provided in the dataset.
+2. Use the generated ROI to train the model to see if it can help increase the accuracy of model.
+3. Apply the detection on the reality complicated images to see its performance and efficiency.
+
 ## TimeTable
 
 | Time | Achievement | Remarks |
