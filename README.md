@@ -6,15 +6,6 @@
 
 **2021 from July 12 to July 28**
 
-## New Plan
-
-| Time | Plan | Remarks |
-| ----------- | ---------- | ---------- |
-| 7.21      | More data agumentation  | larger size of added data |
-| 7.21      | Object detection in large picture  | Color/Shape detect to get ROI |
-| 7.21      | 细化模型开发  | 确定如何更好的测试模型，之后调参 |
-
-
 ## TimeTable
 
 | Time | Achievement | Remarks |
@@ -24,18 +15,19 @@
 | 7.19      | new plan  | Bonus CNN complete，Bonus try no CNN method，try object detection in big scale |
 | 7.20      | finish data agumentation  | different in CNN and traditional method |
 | 7.21      | complete a try on large picture  | sliding window leads to a total fail  |
+| 7.22      | complete an early version of object detection  | still has problems on detection and classification  |
 
 ## Beginner level
 
-[beginner.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/beginner.ipynb)
+[beginner.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Beginner/beginner.ipynb)
 
 ## Expert level
 
-[Expert_differentPreprocessing.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert_differentPreprocessing.ipynb)
+[Expert_differentPreprocessing.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert/Expert_differentPreprocessing.ipynb)
 
-[Expert_differentClassifier.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert_differentClassifier.ipynb)
+[Expert_differentClassifier.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert/Expert_differentClassifier.ipynb)
 
-[Expert_augmentation.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert_augmentation.ipynb)
+[Expert_augmentation.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Expert/Expert_augmentation.ipynb)
 
 - Pre-processing image
 
@@ -47,7 +39,7 @@
 | Histogram Equalization   |0.935   |
 | Resample + Histogram Equalization  |0.962  |
 | add data augumentation    | done  |
-| data strengthen by library (not plan to do temporarily)   |   |
+| data strengthen by library (not plan to do)   |   |
 
 - Method of data agumentation
 
@@ -62,7 +54,7 @@
 | affine  |  do affine transform to 20% of the images |0.895 |
 | random crop  | randomly crop 20% of the images  | 0.885|
 | mine hard negs   | collect failed test examples for retraining  | |
-| multiscale   | resize?   | |
+| multiscale   | resize   | |
 | fliplr  | impossible in real life   | |
 | negative example   | picture with no signs, not collected yet  | |
 | More train and test data   | not collected yet  | |
@@ -97,18 +89,18 @@ Use dataloader in pytorch
 
 ## Bonus Level
 
-[CNN.py](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN.py)
+[CNN.py](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN/CNN.py)
 
-[CNN_withAugmentation.py](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN_withAugmentation.py)
+[CNN_withAugmentation.py](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN/CNN_withAugmentation.py)
 
-[CNN_History_Attempt.md](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN_History_Attemp.md)
+[CNN_History_Attempt.md](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/CNN/CNN_History_Attemp.md)
 
 
 ## Extra work
 
 ### Detection in a large scale
 
-Example of error in detection of pictures of large scale
+Example of the error in detection of pictures of large scale using model of expert level directly
 
 ![](./pic/Error_example1.png)
 
@@ -121,19 +113,16 @@ Example of error in detection of pictures of large scale
 
 [SlidingWindow_v1.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/SlidingWindow_v1.ipynb)
 
-Use model clf trained in expert level (no negative samples)
-
-1. Use sliding window to catch a patch
-2. Use **clf.predict_proba(feature)** to get the probality of all categories and get the max
-3. if max > max_threshold, collect the patch location
-4. sort all the patch locations and show the top ones
-
-![](./pic/Fail1.png)
+[Sliding_window.md](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Extra/Sliding_window.md)
 
 #### Object detection algorithm 
 
-1. Train a binary classification model with negative samples, to predict sign or not sign
-2. Use sliding window and first detect if it is a sign
-3. If it is a sign, use multi-classifier
+[signEdgeDetection_mix2.ipynb](https://github.com/LIKP0/NUS_CV_G7/blob/main/src/Extra/signEdgeDetection_mix2.ipynb)
+
+1. Use color detection to get the contours around the traffic sign and crop them
+2. Classify the cropped ones
+
+![](https://github.com/LIKP0/NUS_CV_G7/blob/main/pic/OBD_sample.png)
+
 
 
