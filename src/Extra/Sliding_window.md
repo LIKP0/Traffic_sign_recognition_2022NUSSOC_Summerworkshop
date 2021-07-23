@@ -7,4 +7,4 @@ Use model clf trained in expert level (no negative samples)
 3. if max > max_threshold, collect the patch location
 4. sort all the patch locations and show the top ones
 
-![](./pic/Fail1.png)
+![](../../pic/Fail1.png)
