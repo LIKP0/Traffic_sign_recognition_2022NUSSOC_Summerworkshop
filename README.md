@@ -16,7 +16,7 @@
 | 7.20      | finish data agumentation  | different in CNN and traditional method |
 | 7.21      | complete a try on large picture  | sliding window leads to a total fail  |
 | 7.22      | complete an early version of object detection  | still has problems on detection and classification  |
-| 7.23      | complete code refactory and update data agumentation | Training data is 5 times bigger than original data |
+| 7.23      | complete code refactory and update data agumentation | Training data is 7 times bigger than original data now (each agumentation method add a time) |
 
 ## Beginner level
 
@@ -53,7 +53,9 @@
 | rotate     | rotate +-10 degree,+-15 degree, each 5% of total data |0.889 |
 | noise | add Gaussian White noise to 20% of the images|0.901 |
 | affine  |  do affine transform to 20% of the images |0.895 |
-| random crop  | randomly crop 20% of the images  | 0.885|
+| random crop  | randomly crop 20% of the images  | 0.885 |
+| brightness | | |
+| contrast | | |
 | mine hard negs   | collect failed test examples for retraining  | |
 | multiscale   | resize   | |
 | fliplr  | impossible in real life   | |
