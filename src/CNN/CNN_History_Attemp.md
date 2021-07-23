@@ -10,7 +10,7 @@
 #### Classifier: 
 Hierarchical CNN + 1 linear layer
 #### Result: Max accuracy on test set 95.91%
-![](../pic/result_cnn_2.png)
+![](../../pic/result_cnn_2.png)
 
 ### Attempt 2
 #### Preprocess: 
@@ -21,7 +21,7 @@ Hierarchical CNN + 1 linear layer
 #### Classifier: 
 Hierarchical CNN + 1 linear layer
 #### Result: Max accuracy on test set 98.37%
-![](../pic/result_cnn_3.png)
+![](../../pic/result_cnn_3.png)
 
 ### Attempt 3
 #### Preprocess: 
@@ -35,7 +35,7 @@ Hierarchical CNN + 1 linear layer
 #### Classifier: 
 Hierarchical CNN + 1 linear layer
 #### Result: Max accuracy on test set 97.69%
-![](../pic/Result_cnn_full.png)
+![](../../pic/Result_cnn_full.png)
 
 ### Attempt 4
 #### Preprocess: 
@@ -49,7 +49,7 @@ Hierarchical CNN + 1 linear layer
 #### Classifier: 
 Hierarchical CNN + 1 linear layer, reduce 4 convolution layers
 #### Result: Max accuracy on test set 97.40%
-![](../pic/Result_cnn_reduced.png)
+![](../../pic/Result_cnn_reduced.png)
 
 ## Conclusion
 For attempt 1 and 2, we just try to get a good result in the test set. However, after that, we found out that the generalization ability of our model is not satisfiing by finding some pictures from the internet and do the test. The test result is not as accurate as it performs in the test set. So, we try to do some data augmentation. We do the gaussian blur to adjust some extreme weather condition such as heavy rain or fog. We do the affine transformation to adjust the different angle of the sign. We do the brightness adjustment to adjust sunshine and night. 
