@@ -67,7 +67,7 @@
 | negative example   | picture with no signs, not collected yet  | |
 | More train and test data   | not collected yet  | |
 
-![](./pic/augmented_dataset1.png)
+![](./pic/augmentated_dataset.png)
 
 **For CNN**
 
