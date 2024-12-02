@@ -1,8 +1,12 @@
-# NUS_CV_G7
+# Traffic sign recognition
 
-**张柯远、徐承启、庄宇凡、李佳霖**
+2021 NUS SOC SummerWorkshop CV cluster 1st prize :fire::fire::fire:
 
-**SuSTech**
+Author: 李佳霖、张柯远、徐承启、庄宇凡 in SUSTech
+
+Supervisor: Terence Sim
+
+[Poster link](https://github.com/LIKP0/My-tiny-research/blob/main/2021-2022-tiny-research-report/SWS3026_07_Visual%20Computing.pdf)
 
 **2021 from July 12 to July 28**
 
